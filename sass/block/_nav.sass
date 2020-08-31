@@ -1,0 +1,75 @@
+.nav
+  display: flex
+  justify-content: space-between
+  align-items: center
+  padding: 25px 0
+  
+  &-main-img
+    position: absolute
+    top: 60px
+    right: -130px
+    bottom: 0
+    z-index: -1
+  &-bg
+  &__logo
+  &-menu
+    width: 29.7%
+    display: flex
+    justify-content: space-between
+    margin-left: 50px
+    margin-bottom: 3px
+    &_mini
+      z-index: 3
+      width: 80px
+      justify-content: space-between
+      display: none
+      align-items: center
+      
+      &-list
+        display: none
+        text-align: right
+        
+        position: absolute
+        top: 45px
+        right: 0
+        z-index: 2
+        & ul 
+          list-style-position: inside
+          list-style-type: none
+          flex-direction: column
+          display: flex
+          & li
+            font-size: 18px
+            margin-bottom: 5px
+      &_active
+        clip-path: polygon(0 100%, 30% 0, 100% 0, 100% 100%)
+      & a 
+        
+        & img
+          border-radius: 0px 5px 0 5px 
+          &:hover
+            background: #cbd3ff 
+      & button
+        
+        & img 
+          
+          &:hover
+            
+            background: #cbd3ff 
+          
+  
+      
+    &__link
+      &:hover
+        color: #415dff
+  &__btn
+    margin-top: -2px
+    font-size: 14px
+    
+    text-transform: uppercase
+    border: 1px solid#29304E
+    padding: 15px 27px 13px
+    &:hover
+      background: rgba(0,0,0, 0.2)
+
+    
